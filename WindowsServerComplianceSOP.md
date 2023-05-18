@@ -62,4 +62,8 @@ If you encounter any problems with hardening a Windows Server 2019 EC2 instance,
 - Check the documentation for the server to see if there are any known issues.
 - Review the server logs for any errors or suspicious activity.
 - Contact Microsoft or the server manufacturer for support.
-9. Conclusion
+
+# 9. Conclusion
+By following the steps in this SOP, you can harden a Windows Server 2019 EC2 instance and make it more secure in accordance with the Cyber Fortress Technologies cyber security framework.
+
+# 10. 
