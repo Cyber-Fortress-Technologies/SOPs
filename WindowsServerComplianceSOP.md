@@ -1,43 +1,65 @@
-### Purpose
-- The purpose of this SOP is to outline the procedures and guidelines for ensuring compliance with cyber security regulations, standards, and best practices within Cyber Fortress Technologies. This SOP aims to protect the organization's information assets, maintain data integrity, and mitigate cyber risks.
+# Standard Operating Procedure
+Hardening a Windows Server 2019 EC2 Instance for Compliance with Cyber Fortress Technologies Cyber Security Framework
 
-## Scope
-- This SOP applies to all employees, contractors, vendors, and third-party entities that interact with or have access to Cyber Fortress Technologies information systems and data.
+# Version
+1.0
 
-## Definitions
-1.  
-2.
-3. 
+# Date
+2023-05-18
 
-## Responsibilities
-- 4.1. [Specify the responsibilities of key roles, such as the Chief Information Security Officer (CISO), IT department, compliance team, and employees, regarding cyber security compliance.]
+# 1. Objective
+- The objective of this SOP is to provide instructions on how to harden a Windows Server 2019 EC2 instance in accordance with the Cyber Fortress Technologies cyber security framework. Hardening a server means making it more secure by reducing the number of attack vectors.
 
-## Compliance Framework
-- 5.1. [Describe the cyber security compliance framework that your organization follows, such as ISO 27001, NIST Cybersecurity Framework, GDPR, HIPAA, or any other relevant regulations and standards.]
+# 2. Scope
+- This SOP applies to all Windows Server 2019 EC2 instances that are used by Cyber Fortress Technologies.
 
-## - Risk Assessment and Management
-- 6.1. [Explain the process of conducting regular risk assessments to identify potential cyber threats and vulnerabilities. Describe how risks are evaluated, categorized, and prioritized.]
+# 3. Prerequisites
+- A Windows Server 2019 EC2 instance
+- Administrative access to the instance
 
-## Policies and Procedures
-- 7.1. [List the cyber security policies and procedures that are in place to address different aspects of information security, including access control, data classification, incident response, network security, password management, etc.]
+# 4. Procedure
+The following steps can be used to harden a Windows Server 2019 EC2 instance:
 
-## Training and Awareness
-- 8.1. [Outline the organization's training and awareness program to educate employees about cyber security best practices, policies, and procedures. Include details about the frequency and delivery methods of training sessions.]
+- Update the operating system and all installed software to the latest versions.
+- Install the latest security patches.
+- Disable unnecessary services.
+- Change the default administrator password to a strong password.
+- Enable strong passwords for all user accounts.
+- Use a firewall to restrict incoming and outgoing traffic.
+- Install a security information and event management (SIEM) solution to monitor the - - server for suspicious activity.
+- Back up the server regularly.
+# 5. Documentation
+The following documentation should be maintained for each hardened Windows Server 2019 EC2 instance:
 
-## Incident Response and Reporting
-- 9.1. [Provide step-by-step procedures for reporting and responding to cyber security incidents. Include instructions for incident identification, containment, eradication, and recovery. Also, specify the reporting channels and contact information for reporting incidents.]
+- A list of installed software and its versions
+- A list of enabled services
+- The administrator password
+- The list of user accounts and their passwords
+- The firewall configuration
+- The SIEM configuration
+- The backup schedule
 
-## Compliance Auditing
-- 10.1. [Describe the process of conducting regular compliance audits to assess the effectiveness of cyber security controls, policies, and procedures. Explain how audit findings are documented, reported, and addressed.]
+# 6. Testing
+The following steps can be used to test the hardening of a Windows Server 2019 EC2 instance:
 
-## Documentation and Record Keeping
-- 11.1. [Detail the requirements for documentation and record keeping related to cyber security compliance, including the types of records to maintain, retention periods, and storage methods.]
+- Try to access the server using a variety of methods, including remote desktop, SSH, and the web browser.
+- Try to brute-force the administrator password.
+- Try to exploit known vulnerabilities.
+- Monitor the server for suspicious activity using the SIEM solution.
 
-## Review and Revision
-- 12.1. [Specify the frequency and process for reviewing and revising this SOP to ensure its relevance and effectiveness. Identify the individuals or committees responsible for reviewing and approving changes.]
+# 7. Maintenance
+The following steps should be taken to maintain the hardening of a Windows Server 2019 EC2 instance:
 
-## References
-- [Include a list of relevant regulations, standards, and other resources that served as references while developing this SOP.]
+- Regularly update the operating system and all installed software.
+- Install the latest security patches.
+- Reconfigure the firewall as needed.
+- Monitor the server for suspicious activity.
+- Back up the server regularly.
 
-## - Appendices
-[Include any supporting documents, forms, or templates that are necessary for implementing this SOP.]
+# 8. Troubleshooting
+If you encounter any problems with hardening a Windows Server 2019 EC2 instance, the following steps can be taken to troubleshoot the issue:
+
+- Check the documentation for the server to see if there are any known issues.
+- Review the server logs for any errors or suspicious activity.
+- Contact Microsoft or the server manufacturer for support.
+9. Conclusion
